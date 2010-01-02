@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1" />
+    <title>Facebook Says</title>
+    <script type="text/javascript" src="js/libs/jquery.js" ></script>
+    <script type="text/javascript" src="js/libs/showdown.js" ></script>
+    
+    {% block head %}
+    {% endblock %}
+    
+  </head>
+  <body>
+        
+    <h1>Get Instant Facebook Notifications on Growl!</h1>
+    <img src="/images/facebooknotify.png" />
+    <ol>
+      <li>Start using <a href="http://www.notify.io/">notify.io</a></li>
+      <li>I'm pretty sure you have a Google account, take just your username (all the stuff before the @ symbol) and add that to "facebooksays.appspotmail.com". So, if your Gmail email address is "mark@gmail.com", you should have "mark@facebooksays.appspotmail.com". 
+      <li>Now, add this email to your Facebook account under Account Settings. Fill up the form as show below.</li>
+      <img src="/images/facebookemail.png" />
+      <img src="/images/confirmemail.png" />
+      <li>Login into notify.io with the same Google Account that you used to login here. Download and install the client if you haven't already.</li>
+      <li>Approve the application on the Pending Approvals sidebar (this might not be required for some people).</li>
+      <li>You should have received a notification that will have a URL to confirm this email. You can find it either in the History tab on notify.io or you should have received a growl notification.</li>
+      <img src="/images/notifyioconfirm.png" />
+      <img src="/images/growlconfirm.png" />
+      <li>Once your Facebook email is confirmed, that's it!</li>
+      <img src="/images/savedemail.png" />
+      <li>You'll start getting instant notify.io/Growl notifications.</li>
+      <img src="/images/facebooknotify.png" />
+      <li><strong>Make a feature request to Facebook asking them to support notify.io natively. Or if you know someone at Facebook, buy them lunch even though they get free lunches. :) </strong></li>
+    </ol>
+    <h3>Not working for you? Have suggestions? <a href="mailto:abii@stanford.edu">Email Me</a></h3>
+    <strong>Tip</strong> (Thanks <a href="http://blog.dreid.org/">David</a>!): When you add this email to your Facebook account, it will be publicly visible on your profile page. <br/>
+    <img src="/images/publicemails.png" />
+    <br/>
+    To prevent this, you can change your privacy settings under Privacy > Profile > Contact Information.
+    <br/>
+    <img src="/images/emailprivacy.png" />
+
+    
+    {% block content %}
+    {% endblock %}
+    
+  
+  </body>
+</html>
